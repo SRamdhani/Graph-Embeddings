@@ -1,11 +1,12 @@
 # Specify Python source files.
-*.py linguist-language=python
-*.pyi linguist-language=python
+* linguist-vendored
+*.py  linguist-language=python linguist-detectable=true
+*.pyi linguist-language=python linguist-detectable=true
 
 # Highlight Cython source files as C language, since it's hopefully better
 # than nothing. This also affects repo statistics.
-*.pyx linguist-language=C
-*.pxd linguist-language=C
+*.pyx linguist-language=C linguist-detectable=true
+*.pxd linguist-language=C linguist-detectable=true
 
 # Jupyter notebook
-*.ipynb text
+*.ipynb text linguist-detectable=false
