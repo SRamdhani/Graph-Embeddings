@@ -1,0 +1,11 @@
+# Specify Python source files.
+*.py linguist-language=python
+*.pyi linguist-language=python
+
+# Highlight Cython source files as C language, since it's hopefully better
+# than nothing. This also affects repo statistics.
+*.pyx linguist-language=C
+*.pxd linguist-language=C
+
+# Jupyter notebook
+*.ipynb text
