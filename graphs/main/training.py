@@ -57,7 +57,7 @@ class Training:
                 if loss.numpy() < global_loss_val:
                     global_loss_val = loss.numpy()
 
-                if (step % 20 == 0) and verbose:
+                if (step % 200 == 0) and verbose:
                     print('EPOCH: ', epoch)
                     embeddings, normalized_embedding = self.getNearest(loss,
                                                                        valid_word,

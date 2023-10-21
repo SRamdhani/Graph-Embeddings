@@ -11,6 +11,7 @@ keras = "2.13.1"
 numpy = "1.24.3"
 pandas = "2.0.3"
 tqdm = "^4.66.1"
+jupyter = "^1.0.0"
 
 
 [build-system]
