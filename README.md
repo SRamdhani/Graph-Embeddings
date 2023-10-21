@@ -14,6 +14,7 @@ conda activate g2v
 conda install pip
 pip install poetry
 poetry install
+# pip install tensorflow # This might be needed depending on your system.
 python run.py
 ```
 
