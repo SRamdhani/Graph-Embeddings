@@ -21,3 +21,6 @@ python run.py
 The final model results can be seen here from the terminal but a better view can be seen from ```run.ipynb```. The results, in my opinion, appear to be more realistic based on the type of movies itself after a 15 epoch training.
 
 ![Graph to vector results.](graphtovecresults.png)
+
+### Contact 
+If you would like to collaborate or need any help with the code you can reach me at satesh.ramdhani@gmail.com. 
