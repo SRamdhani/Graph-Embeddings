@@ -1,4 +1,6 @@
 # Packages
+.ipynb_checkpoints
+*.ipynb_checkpoints
 *.zip
 ml-latest-small/*
 *.csv
