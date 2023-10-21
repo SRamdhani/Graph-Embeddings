@@ -1,5 +1,4 @@
 # Specify Python source files.
-* linguist-vendored
 *.py  linguist-language=python linguist-detectable=true
 *.pyi linguist-language=python linguist-detectable=true
 
